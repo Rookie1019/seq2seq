@@ -17,6 +17,7 @@ class Encoder(nn.Module):
                           batch_first=True)
 
     def forward(self,input):
+        # ddsa
         """
         :param input: [batch_size,seq_len]
         :return:
